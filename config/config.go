@@ -31,7 +31,6 @@ func initMigration() {
 		&model.FasilitasKampus{},
 		&model.FasilitasKelas{},
 		&model.Jurusans{},
-		&model.LuasKampus{},
 		&model.UKM{},
 		&model.Universitas{},
 	)
