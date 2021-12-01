@@ -55,7 +55,7 @@ func CreateAdminController(e echo.Context) error {
 	})
 }
 
-func UpdateAdminByID(e echo.Context) error {
+func UpdateAdmin(e echo.Context) error {
 	admin := model.Admins{}
 	id, _ := strconv.Atoi(e.Param("id"))
 	e.Bind(&admin)
